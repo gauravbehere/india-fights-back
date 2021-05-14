@@ -1,7 +1,9 @@
 # india-fights-back 
 ![alt text](https://gauravbehere.github.io/india-fights-back/images/india.png)
+<img src="https://fortisbangalore.com/frontend/blogimage/Covid-vaccination--1614614615.png" width="450">
 
-Details about vaccination in India
+
+# Details about vaccination in India
 
 ```
 - Information about Co-win app.
