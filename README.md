@@ -23,4 +23,4 @@ Details about vaccination in India
 - Better code organization. (This all was done in 3 hours).
 
 # Contributions
-Do raise a PR with your improvements.
+Do raise a PR for any bug fix or improvements.
