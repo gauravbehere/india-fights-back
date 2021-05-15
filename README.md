@@ -8,14 +8,15 @@
 ```
 - Information about Co-win app.
 - How to register?
-- How to bok an appointment slot?
+- How to book an appointment slot?
 - Tips to get a slot.
-- Precautions & thigs to note while going for vaccination.
+- Precautions & things to note while going for vaccination.
 - Dashboard powered by public Co-win APIs.
 - Pledge.
+- Information available in Hindi, English, Tamil, Malayalam, Marathi, Telugu & Kannada.
 ```
 
-# Hosted at
+# Available URLs
 - http://vaxination.in
 - https://gauravbehere.github.io/india-fights-back
 
