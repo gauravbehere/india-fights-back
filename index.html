@@ -408,32 +408,39 @@
             <div class="consectetur_text">
               How can I find the nearest vaccination centre?
             </div>
-            <p>You can search in Co-WIN portal (or Aarogya Setu) for the vaccination centre nearest to your location by either searching through PIN code or by choosing the State and the District.</p>
+            <p>You can search in Co-WIN portal (or Aarogya Setu) for the vaccination centre nearest to your location by
+              either searching through PIN code or by choosing the State and the District.</p>
           </div>
           <div class="faq-item">
             <div class="consectetur_text">
               What if I cannot go for vaccination on the date of appointment? Can I reschedule my appointment?
             </div>
-            <p>The appointment can be rescheduled at any time. In case you are not able to go for vaccination on the date of appointment, you can reschedule the appointment by clicking on “Reschedule” tab.</p>
+            <p>The appointment can be rescheduled at any time. In case you are not able to go for vaccination on the
+              date of appointment, you can reschedule the appointment by clicking on “Reschedule” tab.</p>
           </div>
           <div class="faq-item">
             <div class="consectetur_text">
               Where will I receive confirmation of date and time of vaccination?
             </div>
-            <p>Once an appointment is scheduled, you will receive the details of the vaccination centre, date and time slot chosen for appointment in an SMS sent to your registered mobile number. You can also download the appointment slip and print it or keep it on your smart phone.</p>
+            <p>Once an appointment is scheduled, you will receive the details of the vaccination centre, date and time
+              slot chosen for appointment in an SMS sent to your registered mobile number. You can also download the
+              appointment slip and print it or keep it on your smart phone.</p>
           </div>
           <div class="faq-item">
             <div class="consectetur_text">
               Is it necessary to take 2nd dose of vaccination? When should I take it?
             </div>
-            <p>Yes. It is recommended that both doses of vaccine should be taken for realising the full benefit of vaccination. Both doses must be of the same vaccine type.
-              It is recommended that the 2nd dose of COVAXIN should be administered in the interval of 4 to 6 weeks from the date of 1st dose administration. For COVISHIELD the recommended interval is 12 to 16 weeks.
+            <p>Yes. It is recommended that both doses of vaccine should be taken for realising the full benefit of
+              vaccination. Both doses must be of the same vaccine type.
+              It is recommended that the 2nd dose of COVAXIN should be administered in the interval of 4 to 6 weeks from
+              the date of 1st dose administration. For COVISHIELD the recommended interval is 12 to 16 weeks.
             </p>
           </div>
         </div>
       </div>
     </div>
 
+    <button onclick="topFunction()" id="scroll-btn" title="Go to top">Top</button>
 
     <!-- section footer end -->
     <div class="copyright">This is an open source website, developed in public interest. Check out the source code at <a
@@ -450,6 +457,26 @@
       }
       function pledge() {
         document.querySelector('.pledge_success').style.display = 'block';
+      }
+
+      //Get the button:
+      const scrollBtn = document.getElementById("scroll-btn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () { scrollFunction() };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          scrollBtn.style.display = "block";
+        } else {
+          scrollBtn.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
       }
 
       function getDashboardData() {
